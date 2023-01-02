@@ -1,0 +1,76 @@
+*{
+  /* outline: 1px solid red; */
+}
+
+#navigation{
+  height: 15vh;
+  width: 100%;
+}
+
+#image{
+  width: 10em;
+}
+
+#announcements{
+  margin-top: 15vh;
+  height: 25vh;
+}
+
+#caro{
+  height: 60vh;
+}
+
+#heading{
+  height: 15%;
+}
+
+#profile-pic{
+  height: 5rem;
+  width: 5rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  background-image: url();
+}
+
+.bigger-fs{
+  font-size: 1.2em;
+}
+
+.h-65{
+  height: 65vh;
+}
+
+.mw-55{
+  min-width: 250px;
+}
+
+.bottom-black{
+  border-bottom: 1px solid #ccc;
+}
+
+.bigger-font{
+  font-size: 1.1rem;
+}
+
+.blue-border{
+  border: 0.2px solid blue;
+}
+
+.bottom-top{
+  animation: up 1s ease-out;
+}
+
+
+
+
+
+@keyframes up {
+  from{
+    transform: translateY(150%);
+  }
+  to{
+    transform: translateY(0%);
+  }
+}
